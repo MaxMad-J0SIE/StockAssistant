@@ -10,6 +10,3 @@ Not implemented yet
 
 ### Stock Predictions Based on World News (NN)
 Not implemented yet
-
-### Project Visualisation
-![img.png](img.png)
