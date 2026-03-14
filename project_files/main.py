@@ -26,10 +26,12 @@ class AppController:
 
     def main(self):
         self.get_connection_to_heart()
-        temp_read_holder = self.heart_con.read_data()
         # for testing purposes
-        # for row in temp_read_holder:
-        #     print(row)
+        # uncomment if needed
+
+        temp_read_holder = self.heart_con.read_data()
+        for row in temp_read_holder:
+            print(row)
 
     def get_connection_to_heart(self):
         if not self.heart_con:

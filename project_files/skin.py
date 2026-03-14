@@ -1,8 +1,9 @@
 
+from heart import Heart
 
 class Skin:
     """
-    Front end operator (don't know if I will use it)
+    Front end operator (fuck console let's do API)
     """
-    def __init__(self):
+    def __init__(self, connection = None):
         pass
